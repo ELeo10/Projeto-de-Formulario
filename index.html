@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="login-box">
+        <form>
+            <h1>Login</h1>
+            <div class="campo-texto">
+                <input type="text" placeholder="Nome" id= "nome" required>
+            </div>
+            <div class="campo-texto">
+                <input type="text" placeholder="Endereço" id= "endereço" required>
+            </div>
+            <div class="campo-texto">
+                <input type="text" name="date" id="ano" placeholder="Ano de Nascimento" minlength="4" maxlength="4" required>
+            </div>
+            
+            <div class="btn" id="button">
+                <input type="button" name="submit" value="Submit" onclick="displayDetails(), divDisplay()">
+            </div>
+            <div class="output" id="output1"></div>
+        </form>  
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>

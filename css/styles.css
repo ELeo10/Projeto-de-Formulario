@@ -1,0 +1,92 @@
+* {
+    font-family: Helvetica;
+}
+
+
+body {
+    background-image: linear-gradient(45deg, rgb(11, 11, 99), rgb(167, 81, 238));
+}
+
+/* Caixa de Login */
+.login-box {
+    text-align: center;
+    width: 450px;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: black;
+    color: white;
+}
+
+/* Campo de texto */
+.campo-texto {
+    position: relative;
+    border-style: groove;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 128);
+    color: white;
+    border-color: rgb(22, 76, 177);
+    width: 50%;
+    display: inline-block;
+}
+
+.campo-texto input {
+    width: 100%;
+    padding: 0;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+/* Botão Submit */
+.btn {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.btn input{
+    position: relative;
+    border-style: groove;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 128);
+    color: white;
+    border-color: rgb(22, 76, 177);
+    padding: 14px 15px;
+    cursor: pointer;
+}
+
+.btn input:hover {
+    background-color: rgb(11, 11, 99);
+}
+
+/* Resposta do formulário */
+#output1 {
+    position: relative;
+    border-style: groove;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 128);
+    color: white;
+    border-color: rgb(22, 76, 177);
+    width: 70%;
+    display: none;
+    padding: 10px;
+}
+
