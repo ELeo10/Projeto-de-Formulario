@@ -91,3 +91,29 @@ body {
     padding: 10px;
 }
 
+@media (max-width: 1200px) {
+
+    .login-box {
+        width: 420px;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .login-box {
+        width: 350px;
+        height: 390px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .login-box {
+        width: 300px;
+        height: 400px;
+    }
+
+}
