@@ -24,6 +24,7 @@ body {
 }
 
 /* Campo de texto */
+
 .campo-texto {
     position: relative;
     border-style: groove;
@@ -37,7 +38,7 @@ body {
     display: inline-block;
 }
 
-.campo-texto input {
+.campo-texto input{
     width: 100%;
     padding: 0;
     height: 40px;
@@ -50,16 +51,8 @@ body {
 }
 
 /* Botão Submit */
-.btn {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    display: block;
-    float: none;
-    margin-bottom: 10px;
-}
 
-.btn input{
+.btn {
     position: relative;
     border-style: groove;
     margin: 10px;
@@ -70,9 +63,13 @@ body {
     border-color: rgb(22, 76, 177);
     padding: 14px 15px;
     cursor: pointer;
+    width: 40%;
+    overflow: hidden;
+    display: inline-block;
+    float: none;
 }
 
-.btn input:hover {
+.btn:hover {
     background-color: rgb(11, 11, 99);
 }
 
