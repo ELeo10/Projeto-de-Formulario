@@ -4,7 +4,7 @@ function displayDetails() {
     const year1 = document.getElementById('ano').value;
     const output = document.getElementById('output1');
     const divContainer = document.querySelector('#output1');
-    const divLoginBox = document.querySelector('.login-box');
+    const divLoginBox = document.querySelector('.form-box');
     
     var date = new Date();
     var year2 = date.getFullYear();
