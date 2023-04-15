@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Login</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <div class="login-box">
-        <form>
+        <form id="form">
             <h1>Login</h1>
+            
             <div class="campo-texto">
-                <input type="text" placeholder="Nome" id= "nome" required>
-            </div>
-            <div class="campo-texto">
-                <input type="text" placeholder="Endereço" id= "endereço" required>
-            </div>
-            <div class="campo-texto">
-                <input type="text" name="date" id="ano" placeholder="Ano de Nascimento" minlength="4" maxlength="4" required>
+                <input type="text" name="nome" placeholder="Nome" id="nome" required="required" />
             </div>
             
-            <div class="btn" id="button">
-                <input type="button" name="submit" value="Submit" onclick="displayDetails(), divDisplay()">
+            <div class="campo-texto">
+                <input type="text" name="date" id="ano" placeholder="Ano de Nascimento" minlength="4" maxlength="4" required="required" />
             </div>
-            <div class="output" id="output1"></div>
-        </form>  
+            
+            <div class="campo-texto">
+                <input type="text" name="endereço" placeholder="Endereço" id= "endereço" required="required" />
+            </div>
+                
+            <button class="btn" type="button" onclick="displayDetails()">Submit</button>
+        
+        </form>
+        <div class="output" id="output1"></div> 
     </div>
 </body>
-<script src="js/main.js"></script>
 </html>
